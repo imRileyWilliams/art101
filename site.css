@@ -1,14 +1,75 @@
+/*Website Navigation */
+.nav {
+    text-align: center;
+    background-color: rgb(219, 236, 213);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav ul {
+  margin: 1.2rem 18rem ; /*first is bottom margin*/
+  margin-top: 2.8rem; /*top margin*/
+    padding: 0;
+    display: flex;
+   
+}
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 0.2rem;
+    white-space: nowrap;
+}
+.nav ul li a.list {
+    display: block;
+    line-height: 1.3rem;
+    padding: 1.5rem 2.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
 
-h1{
+}
+.nav ul li:first-child {
+    margin-bottom: 0.8rem;
+    margin-right: auto;
+    display: block;
+    margin-left:-8rem;
+}
+.nav ul li a.logo {
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav ul li a:hover {
+    color: #83c0ef;
+
+}
+/* Mobile Drop Menu Icon, hidden by default. 
+Will reveal on mobile res after JS lessons */
+.nav ul #icon{
+    display:none;
+
+}
+/* End Navigation */
+
+/* Body decoration */
+a{
     color:rgb(36, 69, 89)
 }
+/* Introduction/About section */
 #introduction {
     background: rgb(219, 236, 213) ;
-    padding: 100px;
+    padding-top: 1rem;
     font-size: 16pt;
+    display:block;
 }
+.content-wrap {    
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 2rem 5rem 4rem;
+    overflow: auto;}
 body {
-    background: #e1f3f1;
+    background: rgb(219, 236, 213);
 }
 p{
     line-height: 15pt
@@ -16,7 +77,8 @@ p{
 #main {
     color:black;
 }
-
+/* End About Section */
+/* Landing page photo */
 .backgroundindex {
     display: inline-block;
     width: 100%;
@@ -27,7 +89,7 @@ p{
     background-size: cover;
     background-position: center;
 }
-
+/* Name in Center of Page */
 .backgroundindex h1 {
     color: white;
     text-align: center;
@@ -35,7 +97,12 @@ p{
     font-size: 80pt;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+/* End Name */
+img {
+    display:block;
 
+}
+/* Includes Class Work */
 #Art101 {
     padding: 50px;
     background: rgb(237, 183, 241)
@@ -52,3 +119,19 @@ p{
 #Exercises{
     margin-left:0;
 }
+/* Includes Class Work */
+
+
+/* Mobile CSS - This section regards aspect ratios where the width is ≤ to 700 pixels.  */
+@media screen and (max-width: 700px){
+     .image {
+        margin: 0 auto;
+        display: inline-block;
+        left: 50%;
+        float: none;
+}
+    .introduction{
+        text-align: center;
+    }
+    }
+/* End Mobile CSS */
