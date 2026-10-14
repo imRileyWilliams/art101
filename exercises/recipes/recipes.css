@@ -1,0 +1,102 @@
+.isometra-regular {
+  font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#chicken{ position: absolute;
+     bottom: 10px;
+    left:40%;
+     font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+UL {color: black
+} 
+
+
+
+
+    h2 {
+        background-color: #f3ccf3
+        
+    }
+    h2{
+        max-width: 500px;
+        min-height: 50px;
+    }
+    h2 {font-weight: normal}
+    h2{
+        padding: 20px;
+
+        
+    }
+    P 
+    {   display:block;
+        margin-left: auto;
+        margin-right: auto;}
+
+
+    img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #janna {
+        width: 80%
+    }
+
+    .highlight_01 {
+        background-color: yellow;
+
+    
+    }
+
+    .highlight_01 strong {
+        background-color: pink;
+
+    }
+
+    .highlight_01 strong:hover {
+        font-size: larger;
+    }
+
+    #main {
+        background-color: #f3ccf3;
+        padding: 80px;
+        box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 12px rgba(0,0,0,0); 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 12px rgba(0,0,0,0);
+border-radius: 500px;
+    }
+
+    #gallery {
+        display:flex; flex-wrap:wrap;
+        align-items: vertical;
+        row-gap: 30px;
+        column-gap: 30px;
+       -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+background-color: #f3ccf3;
+padding: 30px;
+}
+
+
+    #gallery IMG { 
+    size: 120px, 90px;
+    }
+#pan-home {position: relative;}
+
+
+    
+
+#homelink {
+    position:absolute ;
+     top: 50px;
+    left: 50px;
+
+}
+
+
+
+
