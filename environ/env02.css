@@ -38,6 +38,10 @@
     color: #83c0ef;
 
 }
+.boxes {
+    display: flex;
+    
+}
 #pianta4 {
     width: 500px;
     gap: 200px;
