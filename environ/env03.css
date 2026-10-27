@@ -1,0 +1,123 @@
+.nav {
+    text-align: center;
+    background-color: rgb(219, 236, 213);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav ul {
+  margin: 1.2rem ; /*first is bottom margin*/
+  margin-top: 2.8rem; /*top margin*/
+    padding: 0;
+    display: flex;
+   
+}
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 0.2rem;
+    white-space: nowrap;
+}
+.nav ul li a.list {
+    display: block;
+    line-height: 1.3rem;
+    padding: 1.5rem 2.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+}
+
+.nav ul li a.logo {
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav ul li a:hover {
+    color: #83c0ef;
+
+}
+.boxes {
+    display: flex;
+    
+}
+#pianta4 {
+    width: 500px;
+    gap: 200px;
+   
+}
+#pianta3 {
+    width: 350px;
+    gap: 200px;
+   
+}
+#pianta2 {
+    width: 250px;
+    gap: 200px;
+
+}
+#pianta1 {
+    width: 150px;
+    gap: 150px;
+}
+#banana1 {
+    margin-right: 100px;
+    width: 150px;
+    gap: 150px;
+
+}
+#banana2 {
+    margin-right: 100px;
+    width: 150px;
+    gap: 150px;
+
+}
+#banana3 {
+    margin-right: 100px;
+    width: 150px;
+    gap: 150px;
+
+}#banana4 {
+    margin-right: 100px;
+    width: 150px;
+    gap: 150px;
+
+}#banana5 {
+    margin-right: 100px;
+    width: 150px;
+    gap: 150px;
+    position:
+
+}
+#party p{
+   background-color: orange;
+    block-size: 100 100 100 100;
+padding-top: 1rem;
+}
+.main {
+       max-width: 900px;
+    margin: 138px auto 0 auto;
+    font-size: 16pt;
+    padding: 30px;
+
+}
+#environment{
+    display:inline;
+    
+}
+body{
+    background: url(Artist\'s\ Radio\ Playlist\ cover.png)no-repeat;
+    background-size: 100%;
+
+}
+
+#answer {
+   
+    display:block;
+    background-color: rgba(114, 115, 114, 0.808);
+    font-size: 24pt;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+}
