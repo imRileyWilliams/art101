@@ -2,7 +2,7 @@
 .nav {
     text-align: center;
     background-color: rgb(219, 236, 213);
-    position: fixed;
+
     top: 0;
     width: 100%;
     z-index: 999;
@@ -74,12 +74,26 @@ body {
 .Message{
     display:flex;
     align-items:flex-start ;
-    color: #1d1184;
+    color: #322d5b;
     text-align: center;
-    padding:133px;
-  font-size: 2.5rem;
+    padding-left: 133px;
+  font-size: 3rem;
     text-decoration: none;
     text-transform: uppercase;
+    
+    
+}
+.gallery img{
+    max-width:450px;
+    min-width: 150px;
+    max-height:600px;
+    min-height: 250px; 
+    display:inline-flex;
+}
+
+.gallery video{
+    height: 540px;
+    display:inline-flex;
 }
 #main {
     color:black;
