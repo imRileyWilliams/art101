@@ -44,6 +44,7 @@ if (Scene = 1) {
     $("#party").css("display","none")
     $("#Scene").css("display", "none")
     $("#bad").css("display","block")
+    $("img").css("display","none")
     $("#people").click(function (){
     
 let message = "Everyone is <strong> dead. </strong>";
@@ -69,6 +70,7 @@ $("#empty").click(function(){
     $("#Scene").css("display","block" )
     $("#bad").css("display", "none"
     )
+    $("img").css("display","block")
 })
 
 }})
