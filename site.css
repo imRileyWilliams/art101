@@ -5,6 +5,7 @@
     top: 0;
     width: 100%;
     z-index: 999;
+    position: fixed;
 }
 .nav ul {
   margin: 1.2rem 18rem ; /*first is bottom margin*/
